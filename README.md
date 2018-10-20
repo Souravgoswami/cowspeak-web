@@ -1,6 +1,8 @@
 # cowspeak-web
 stdouts quote of the day from brainyquote.com if there's an internet connection, or something random and perhaps funny from fortune.
 
+**NOTE: THIS RUBY SCRIPT REQUIRES ncurses (for tput), AND IT IS WRITTEN ON LINUX, FOR LINUX. NO TEST WAS DONE ON OTHER OS.
+
 **Documentation:**
 Hi, my name is cowspeak-web. I speak a quote on your terminal. I can read quote of the day from brainyquote.com as well.
 In that case, If there is no internet connection, then I tell a fortune quote.
