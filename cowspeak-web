@@ -68,12 +68,13 @@ Pass me some arguments:
 			To read a file from the storage:
 				#{__FILE__} --read='path/file.extension' or #{__FILE__} -r='path/file.extension'
 
-			NOTE: --web with --text, or --web with --text will only show quote from brainyquote.com, and not both.
-					In the same way, --text with --read will not read the file.
+			NOTE: --web with --text, or -w with -t will only show quote from brainyquote.com, and not both.
+					In the same way, --text with --read or -t with -r will not read the file, but show the custom text.
+					Here's the priority of them, the higher the priority, the higher chances they are considered.
 
-					Priority 1: web
-					Priority 2: text
-					Priority 3: read
+						Priority 1: web
+						Priority 2: text
+						Priority 3: read
 	Help:
 		#{__FILE__} -h or --help for this help message.
 
